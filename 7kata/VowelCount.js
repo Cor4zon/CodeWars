@@ -1,3 +1,4 @@
+// 1
 const vowels = "aeiou";
 
 function getCount(str) {
@@ -9,3 +10,9 @@ function getCount(str) {
   }
   return vowelCounter;
 }
+
+// 2
+function getCount(str) {
+    return str.split('').filter(c => "aeiouAEIOU".includes(c)).length;
+}
+
