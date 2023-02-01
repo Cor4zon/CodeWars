@@ -1,39 +1,49 @@
-function zero() {
-    return '0'
+function zero(op) {
+    return op ? Math.floor(eval(0 + op)) : '0'
   }
   function one(op) {
-      return '1' + op ? op() : ''
+      return op ? Math.floor(eval(1 + op)) : '1'
   }
-  function two() {
-      return '2'
+  function two(op) {
+    return op ? Math.floor(eval(2 + op)) : '2'
   }
-  function three() {
-      return '3'
+  function three(op) {
+    return op ? Math.floor(eval(3 + op)) : '3'
   }
-  function four() {
-      return '4'
+  function four(op) {
+    return op ? Math.floor(eval(4 + op)) : '4'
   }
-  function five() {
-      return '5'
+  function five(op) {
+    return op ? Math.floor(eval(5 + op)) : '5'
   }
-  function six() {
-      return '6'
+  function six(op) {
+    return op ? Math.floor(eval(6 + op)) : '6'
   }
-  function seven() {
-      return '7'
+  function seven(op) {
+    return op ? Math.floor(eval(7 + op)) : '7'
   }
-  function eight() {
-      return '8'
+  function eight(op) {
+    return op ? Math.floor(eval(8 + op)) : '8'
   }
   function nine(op) {
-      return '9' + op ? op() : ''
+      return op ? Math.floor(eval(9 + op)) : '9'
   }
   
   function plus(num) {
-    return '+'
+    return '+' + num;
   }
-  function minus() {}
-  function times() {}
-  function dividedBy() {}
+  function minus(num) {
+    return '-' + num;
+  }
+  function times(num) {
+    return '*' + num;
+  }
+  function dividedBy(num) {
+    return '/' + num;
+  }
 
-  eval(nine(plus(one())))
+// console.log(nine(plus(one())));
+console.log(nine(times(zero())));
+// console.log(plus(one()));
+
+
