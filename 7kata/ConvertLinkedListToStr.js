@@ -8,3 +8,8 @@ function stringify(list) {
   resultStr += 'null';
   return resultStr;
 }
+
+// smart way
+function stringify(list) {
+  return list === null ? 'null' : list.data + ' -> ' + stringify(list.next);
+}
