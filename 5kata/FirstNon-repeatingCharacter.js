@@ -34,3 +34,13 @@ function firstNonRepeatingLetter(s) {
 }
 
 // best
+function firstNonRepeatingLetter(s) {
+  const sOneRegisterCopy = s.toLowerCase();
+  for (let i = 0; i < s.length; i++) {
+    const char = sOneRegisterCopy[i];
+    if (sOneRegisterCopy.indexOf(char) === sOneRegisterCopy.lastIndexOf(char)) {
+      return s[i];
+    }
+  }
+  return "";
+}
