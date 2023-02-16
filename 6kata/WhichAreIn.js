@@ -10,3 +10,8 @@ function inArray(array1,array2){
   }
   return res.sort();
 }
+
+// best
+function inArray(array1,array2){
+  return array1.filter(elem => array2.find(array2Elem => array2Elem.match(elem))).sort()
+}
