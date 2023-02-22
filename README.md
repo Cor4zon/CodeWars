@@ -3,7 +3,7 @@
 # CodeWars
 
 goal: 100 task on next week
-79/100
+90/100
 
 
 sprint task: 200
