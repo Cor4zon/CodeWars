@@ -81,13 +81,15 @@ const move = () => {
   return makeMove();
 }
 
+  if (array[0].length === 0) {
+    return [];
+  }
+  
   let i = 0;
   let j = 0;
   const resultArray = [];
   let prevDirection = '';
-  while (move()) { 
-    console.log(resultArray)
-  }
+  while (move()) { }
   resultArray.push(array[i][j])
   return resultArray;
 }
