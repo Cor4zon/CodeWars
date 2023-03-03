@@ -1,11 +1,11 @@
 **Everyday, the first thing I do is solve a Codewar!**
 
-# CodeWars
+plan
 
-goal: 100 task on next week
-90/100
+week 1: Arrays & Hashing
 
+week 2: Two Pointers
 
-sprint task: 200
+week 3: Stack
 
-day progress: 1️⃣
+week 4: Binary Search
