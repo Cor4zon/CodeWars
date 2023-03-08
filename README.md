@@ -1,6 +1,6 @@
 **Everyday, the first thing I do is solve a Codewar!**
 
-plan
+**plan**
 
 week 1: Arrays & Hashing
 
